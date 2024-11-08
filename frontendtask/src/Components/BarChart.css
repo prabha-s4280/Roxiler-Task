@@ -1,0 +1,22 @@
+.bar-chart-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bar-chart-container p {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+  }
+  
+  @media (max-width: 600px) {
+    .bar-chart-container {
+      width: 90%;
+      padding: 15px;
+    }
+  }
+  

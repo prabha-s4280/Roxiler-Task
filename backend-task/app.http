@@ -1,0 +1,18 @@
+// 1.API FOR TRANSACTIONS WITH SEARCH AND PAGINATION
+GET http://localhost:8080/transactions?price=559.9&category=men%27s%20clothing
+
+
+// 2.API FOR STATISTICS BASED ON MONTH
+GET http://localhost:8080/statistics?month=October
+
+
+// 3.API FOR BAR CHART BASED ON PRICE RANGES
+GET http://localhost:8080/bar-chart?month=June
+
+
+//4.API FOR GETTING PIE CHART
+GET http://localhost:8080/pie-chart?month=March
+
+
+//5.API FOR GETTING ALL API DATA
+http://localhost:8080/all-data?month=January
